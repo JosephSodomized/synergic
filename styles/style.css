@@ -7,7 +7,7 @@ body{
 .container-fluid{
     position: relative;
     overflow: hidden;
-    background: url('/img/backgroung.png');
+    background: url('../img/backgroung.png');
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
