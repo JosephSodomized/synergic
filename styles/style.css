@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container-fluid{
+    position: relative;
+    overflow: hidden;
+    background: url('/img/backgroung.png');
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.col{
+    height: 100vh;
+    width: 100%;
+}
+
+.txt{
+    font-size: 80px;
+    font-weight: 800;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    line-height: 90%;
+}
+
+.animated{
+   display: none;
+}
+
+.sidebar{
+    background-color: yellow;
+    width: 30%;
+    height: 100vh; 
+    position: absolute;
+    right: -30%;
+}
+
+.sidebar img{
+    position: relative;
+    top: 29%;
+}
